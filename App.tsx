@@ -2,15 +2,16 @@ import "react-native-svg";
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
 import { Svg, Circle, Rect, SvgUri } from "react-native-svg";
+// import { SvgCssUri } from "react-native-svg/css";
 
 export default function App() {
   return (
     <View style={styles.container}>
       <Text>Open up App.js to start working on your app!</Text>
       {/* <SvgUri
-        uri="https://dev.w3.org/SVG/tools/svgweb/samples/svg-files/tiger.svg"
-        width={36}
-        height={36}
+        uri="https://upload.wikimedia.org/wikipedia/commons/4/4f/SVG_Logo.svg"
+        width={64}
+        height={64}
       /> */}
       <Svg height="50%" width="50%" viewBox="0 0 100 100">
         <Circle
